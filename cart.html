@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="./css/index.css" rel="stylesheet">
+    <title>Ŧครђเ๏ภฬคlค.ς๏๓</title>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <div>
+            <a id="logo" href="index.html">Ŧครђเ๏ภฬคlค.ς๏๓</a>
+        </div>
+        <div>
+            <input id="search" type="text" placeholder="Search">
+            <button onclick="category(search)" id="search-icon" type="submit">Search</button>
+        </div>
+
+        <div>
+            <button type="submit">Favorite</button>
+            <button type="submit">Contact us</button>
+            <button onclick="clearcart()" style="background-color:red" type="submit">Clear Cart</button>
+        </div>
+    </div>
+
+    <div id="cart-item">
+        <img style="margin: auto;" id="emptycart" src="./image/emptycart.png" alt="" srcset="">
+    </div>
+
+    <h1 style="text-align: center;color: white;" id="total"></h1><br>
+    <div style="display: flex;flex-wrap: wrap;width: 60%;margin: auto;">
+        <input type="text" id="inppromo" placeholder="Promo Code">
+        <button onclick="promo()" id="promobtn" type="submit">Promo</button>
+        <button onclick="checkout()" id="chechout" type="submit">Checkout</button>
+    </div>
+    <p style="text-align: center;color: white;">Use PROMO10 and so on to get upto 50% discount</p>
+    <script src="./js/cart.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="./css/index.css" rel="stylesheet">
+    <title>Ŧครђเ๏ภฬคlค.ς๏๓</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <div>
+            <a id="logo" href="index.html">Ŧครђเ๏ภฬคlค.ς๏๓</a>
+        </div>
+        <div>
+            <input id="search" type="text" placeholder="Search">
+            <button onclick="category(search)" id="search-icon" type="submit">Search</button>
+        </div>
+
+        <div>
+            <button onclick="category(product)" id="product" value="product" type="submit">All Product</button>
+            <button type="submit">Favorite</button>
+            <button type="submit">Contact us</button>
+            <button onclick="gotocart()" type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</button>
+        </div>
+    </div>
+
+    <img id="slideshow">
+
+    <div id="category">
+        <div style="background-image: url('./image/small_men.jpeg');">
+            <button onclick="category(men)" id="men" value="men clothing" type="submit">Men</button>
+        </div>
+        <div style="background-image: url('./image/small_women.jpg');">
+            <button onclick="category(women)" id="women" value="women clothing" type="submit">Women</button>
+        </div>
+        <div style="background-image: url('./image/small_jelery.jpg');">
+            <button onclick="category(jewelery)" id="jewelery" value="jewelery" type="submit">Jewelery</button>
+        </div>
+        <div style="background-image: url('./image/small_electronic.jpeg');">
+            <button onclick="category(electronic)" id="electronic" value="electronics" type="submit">Electronic</button>
+        </div>
+    </div>
+    <div id="showdata"></div>
+
+
+    <div id="footer">
+        <P>𝔽𝕒𝕤𝕙𝕚𝕠𝕟𝕨𝕒𝕝𝕒.𝕔𝕠𝕞 ℂ𝕠𝕡𝕪𝕣𝕚𝕘𝕙𝕥 Ⓒ 𝟚𝟘𝟛𝟘</P>
+    </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

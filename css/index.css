@@ -1,0 +1,284 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(21, 20, 20);
+    opacity: 0.9;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(16, 15, 15);
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+}
+
+#navbar>div {
+    margin: auto;
+}
+
+#navbar>div:nth-child(2) {
+    display: flex;
+}
+
+#navbar>div:nth-child(3) {
+    display: flex;
+    width: 600px;
+}
+
+#navbar>div:nth-child(3)>button {
+    margin: auto;
+    width: 100px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#navbar>div:nth-child(3)>button:hover {
+    background-color: teal;
+    box-shadow: 1px 2px 10px 1px white;
+}
+
+#logo {
+    color: blanchedalmond;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 0px 0px 100px;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+input {
+    color: white;
+    width: 350px;
+    padding: 7px;
+    outline: none;
+    border-radius: 50px;
+    margin: 5px 0px 0px 10%;
+    padding: 0px 0px 0px 15px;
+    background-color: rgb(36, 35, 35);
+}
+
+input:hover {
+    box-shadow: 1px 2px 10px 1px white;
+}
+
+#search-icon {
+    padding: 7px;
+    outline: none;
+    margin: 5px 0px 0px 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 100px;
+    background-color: teal;
+    color: white;
+}
+
+#search-icon:hover {
+    background-color: rgb(4, 73, 78);
+    box-shadow: 1px 2px 10px 1px white;
+}
+
+#slideshow {
+    width: 75%;
+    margin: 90px 11.5% 30px 12.5%;
+    height: 400px;
+    border-radius: 7px;
+    box-shadow: 1px 2px 10px 3px white;
+    background-size: 100% 100%;
+}
+
+#category {
+    margin-top: 0;
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#category>div {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 200px;
+    border-radius: 7px;
+    box-shadow: 1px 2px 10px 3px white;
+    background-size: 100% 100%;
+}
+
+#category>div>button {
+    width: 100px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    background: transparent(0.5);
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+    border-radius: 7px;
+    margin: 150px 150px 20px 100px;
+    box-shadow: 1px 2px 10px 1px rgb(7, 7, 7);
+    cursor: pointer;
+}
+
+#category>div>button:hover,
+.addtocart:hover,
+#chechout:hover,
+#promobtn:hover,
+#paymentbtn:hover,
+#otpbtn:hover {
+    background-color: teal;
+    box-shadow: 1px 2px 10px 1px white;
+}
+
+#showdata {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#showdata>div {
+    margin: auto;
+    margin-bottom: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+    background-size: 100% 100%;
+}
+
+.item-img {
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    border-radius: 7px;
+    box-shadow: 1px 2px 10px 3px white;
+    background-size: 100% 100%;
+}
+
+.addtocart,
+#chechout,
+#promobtn,
+#paymentbtn,
+#otpbtn {
+    width: 200px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    background: transparent(0.5);
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+    border-radius: 7px;
+    margin-left: 50px;
+    box-shadow: 1px 2px 10px 1px rgb(7, 7, 7);
+    cursor: pointer;
+}
+
+#footer {
+    width: auto;
+    height: 50px;
+    background-color: rgb(37, 37, 37);
+    margin-bottom: 0px;
+}
+
+#footer>p {
+    text-align: center;
+    padding-top: 13px;
+    color: white;
+    font-size: 20px;
+}
+
+#cart-item {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cart-item>div {
+    margin: 0 25px;
+    margin-bottom: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 7px;
+    background-size: 100% 100%;
+}
+
+#inppromo {
+    width: 150px;
+    padding: 12px;
+}
+
+#payment {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(68, 68, 68);
+    border-radius: 7px;
+    box-shadow: 1px 2px 10px 3px white;
+}
+
+#payment>div {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 22px;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#card,
+#exp,
+#cvv,
+#name,
+#otpno {
+    color: white;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border-radius: 50px;
+    background-color: rgb(36, 35, 35);
+}
+
+#paymentbtn,
+#otpbtn {
+    margin-left: 30%;
+}
+
+#otpmain {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 7px;
+    background-color: rgb(68, 68, 68);
+    box-shadow: 1px 2px 10px 3px white;
+}

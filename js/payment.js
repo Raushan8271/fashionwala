@@ -16,7 +16,7 @@ function submit() {
         alert('CVV No is empty')
     } else {
         if (payment.card.length >= 12 && payment.exp.length >= 5 && payment.cvv.length >= 3 && payment.card.length <= 16 && payment.exp.length <= 10 && payment.cvv.length <= 4) {
-            window.location.href = 'OTP.html'
+            window.location.href = 'otp.html'
         } else {
             alert('Please Fill All Data correct')
         }

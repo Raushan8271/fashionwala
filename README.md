@@ -8,7 +8,6 @@
 <li> CSS</li>
 <li> JavaScript</li>
 <li>Advance Javascript</li>
-<li>Bootstrap</li>
 
 # Landing Page
 ![Screenshot (281)](https://user-images.githubusercontent.com/36612181/128464214-e9d8f0bc-13db-40a3-99a9-7aec193276c8.png)

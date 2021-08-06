@@ -1,6 +1,6 @@
 # fashionwala.com
 
-### fashionwala.com i demo E-commerce website 
+### fashionwala.com is demo E-commerce website 
 
 # Tech Stack use:
 <li> HTML
